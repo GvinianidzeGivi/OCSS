@@ -1,0 +1,10 @@
+blockquote {
+  p {
+    &:before {
+      content: open-quote;
+    }
+    &:after {
+      content: close-quote;
+    }
+  }
+}

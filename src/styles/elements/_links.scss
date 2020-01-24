@@ -1,0 +1,10 @@
+a {
+  color: $color-link-color;
+  text-decoration: none;
+  background-color: transparent; 
+  -webkit-text-decoration-skip: objects; 
+  &:hover {
+    color: $color-link-color-hover;
+    text-decoration: underline;
+  }
+}
